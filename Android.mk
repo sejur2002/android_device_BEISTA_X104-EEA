@@ -1,4 +1,4 @@
-ifneq ($(filter $$DEVICE$$,$(TARGET_DEVICE)),)
+ifneq ($(filter X104-EEA,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := device/BEISTA/X104-EEA
 

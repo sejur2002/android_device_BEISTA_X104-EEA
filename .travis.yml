@@ -52,7 +52,7 @@ deploy:
   file: $HOME/twrp/*.img
   on:
     tags: false
-    repo: $$USERNAME$$/$$REPO_URL$$ # Optional: If you want to deploy on different repository
+    repo: https://github.com/sejur2002/android_device_BEISTA_X104-EEA.git # Optional: If you want to deploy on different repository
     branch: main # Optional: Needs to be exact as the config branch
 branches:
   only:
